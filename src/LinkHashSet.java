@@ -1,9 +1,10 @@
-import java.util.HashSet;
+
+import java.util.LinkedHashSet;
 import java.util.Set;
 
-public class Hashset {
+public class LinkHashSet {
     public static void main(String[] args) {
-        Set<Integer> c = new HashSet<>();
+        Set<Integer> c = new LinkedHashSet<>();
         c.add(10);
         c.add(10);
         c.add(20);
